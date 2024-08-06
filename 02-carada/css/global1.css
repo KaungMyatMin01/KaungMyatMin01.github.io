@@ -1,0 +1,18 @@
+/* Style for the entire table */
+#productList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles for table headers and data cells */
+#productList th, #productList td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Optional: Style for table headers */
+#productList th {
+    background-color: #f2f2f2;
+}
